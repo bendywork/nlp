@@ -1,0 +1,25 @@
+{
+  "code-runner.executorMap": {
+    "python": "/opt/conda/envs/cpu/bin/python -u"
+  },
+  "cSpell.words": [
+    "datas",
+    "jieba",
+    "lcut"
+  ],
+
+  // —— 注释相关 —— 
+  "editor.comments.insertSpace": true,
+  "editor.comments.ignoreEmptyLines": false,
+  "editor.autoIndent": "full",
+
+  // —— 换行体验（编辑时自动折行，但不插入真实换行）——
+  "editor.wordWrap": "on",
+  "editor.wordWrapColumn": 80,
+
+  // —— Python 文件保持一致 —— 
+  "[python]": {
+    "editor.wordWrap": "on",
+    "editor.wordWrapColumn": 80
+  }
+}

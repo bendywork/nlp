@@ -21,7 +21,9 @@ jieba.load_userdict(os.path.join(os.path.dirname(__file__), "jieba.word"))
 
 if __name__ == '__main__':
     # 文本分词
-    print("  ".join(jieba.cut("我喜欢上学")))
+    print("  ".join(jieba.cut("我喜欢写代码")))
+    print(jieba.lcut("今晚买几个杯子，喝点儿小酒"))
+
 
 
 
